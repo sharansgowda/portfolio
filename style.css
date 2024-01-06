@@ -1,0 +1,157 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey /* Light grey background */
+   
+}
+
+header {
+    background-color: #2c3e50;; /* Midnight blue header background */
+    color: #ecf0f1; /* Light grey header text color */
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #CAC0B3; /* Light grey logo color */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.nav-links a {
+    color: #CAC0B3; /* Light grey navigation text color */
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FF595A; /* Light blue on hover */
+}
+
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+section h2 {
+    color: black
+     /* Dark blue section heading color */
+}
+
+section p {
+    font-size: 1.1em;
+    color: #CAC0B3; /* Dark grey paragraph text color */
+}
+
+.paragraph {
+    color: #CAC0B3; /* Light blue paragraph color */
+}
+
+#image1,
+#image2,
+#image3 {
+    display: block;
+    margin: 0 auto;
+}
+#image1 {
+    height: 500px;
+    width: 500px;
+}
+
+#contact p {
+    text-align: center;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #2c3e50; /* Midnight blue footer background */
+    color: #ecf0f1; /* Light grey footer text color */
+}
+
+.project a {
+    color: lightblue; /* Light grey navigation text color */
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #FF595A; /* Light blue on hover */
+}
+
+.container {
+    max-width: 1500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding to the sides */
+    box-sizing: border-box;
+    background-color: yellowgreen;
+}
+.skills {
+    background-color: grey;
+    box-shadow: black;
+    text-align: center;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* GLOW ANIMATION */
+.skills:hover {
+    box-shadow: beige;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.skills-header {
+    color: black;
+    text-decoration: underline;
+}
+
+.skills-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: black;
+}
+
+.skills-table th,
+.skills-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.skills-table tbody tr:hover {
+    background-color: #CAC0B3;
+    transition: background-color 0.3s ease-in-out;
+}
